@@ -1,11 +1,14 @@
 import React from 'react';
 import Mission from './Mission';
-import 
+import Story from './Story';
 
 function AboutUs(){
     return (
         <div>
-
+            <Mission />
+            <Story />
         </div>
     )
 }
+
+export default AboutUs;
