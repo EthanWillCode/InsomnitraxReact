@@ -5,9 +5,12 @@ import App from './App';
 import Footer from './Footer/Footer.js'
 import reportWebVitals from './reportWebVitals';
 
+//https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header />
     <App />
     <Footer />
   </React.StrictMode>
