@@ -3,6 +3,7 @@ import './App.css';
 import Card from './Components/Card.js'
 import Navigation from './Components/Navigation.js';
 import Header from './Components/Header.js';
+import {homeCards} from './CardInfo/HomepageCards.js';
 
 //Hi
 function App() {
@@ -11,7 +12,14 @@ function App() {
     <div className="App">
       <Header />
       <Navigation />
-      <Card />
+      <div>
+        {
+          homeCards.map(homeCard => {
+            <Card cardObject ={homeCard} />
+          })
+        }
+      </div>
+
     </div>
   );
 }

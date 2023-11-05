@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Card(imageURL, blurb){
+function Card(props){
     <div>
-        <img src={imageURL} />
-        <p>{blurb}</p>
+        <img src={props.image} />
+        <p>{props.blurb}</p>
     </div>
 }
 
