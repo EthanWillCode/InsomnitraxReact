@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Mission from './Mission';
 import Story from './Story';
 

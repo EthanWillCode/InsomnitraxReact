@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './general.css';
+import './App.css';
 import App from './App';
-import Footer from './Footer/Footer.js'
 import reportWebVitals from './reportWebVitals';
 
 //https://www.geeksforgeeks.org/how-to-create-a-multi-page-website-using-react-js/
@@ -11,10 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <body>
-      <Header />
       <App />
     </body>
-    <Footer />
   </React.StrictMode>
 );
 
